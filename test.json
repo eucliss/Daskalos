@@ -1,0 +1,243 @@
+{
+    "feed": {
+        "@xmlns": "http: //www.w3.org/2005/Atom",
+        "link": {
+            "@href": "http://arxiv.org/api/query?search_query%3Dall%3Aastrophysics%26id_list%3D%26start%3D0%26max_results%3D2",
+            "@rel": "self",
+            "@type": "application/atom+xml"
+        },
+        "title": {
+            "@type": "html",
+            "#text": "ArXiv Query: search_query=all:astrophysics&id_list=&start=0&max_results=2"
+        },
+        "id": "http://arxiv.org/api/jkPz+tA5OUSUwMH44szyfcy4htw",
+        "updated": "2023-12-26T00:00:00-05:00",
+        "opensearch:totalResults": {
+            "@xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+            "#text": "340746"
+        },
+        "opensearch:startIndex": {
+            "@xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+            "#text": "0"
+        },
+        "opensearch:itemsPerPage": {
+            "@xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+            "#text": "2"
+        },
+        "entry": [
+            {
+                "id": "http://arxiv.org/abs/2312.14046v2",
+                "updated": "2023-12-22T18:57:11Z",
+                "published": "2023-12-21T17:13:48Z",
+                "title": "Detectability of Finite-Temperature Effects From Neutron Star Mergers\n  with Next-Generation Gravitational Wave Detectors",
+                "summary": "Observations of the high-frequency gravitational waves (GWs) emitted by the\nhot and massive remnant of a binary neutron star merger will provide new probes\nof the dense-matter equation of state (EoS). We show that current uncertainties\nin the thermal physics can cause the emergent GW spectum to differ by a degree\ncomparable to changing the cold EoS by $\\pm\\sim120$ m in the characteristic\nradius of a neutron star. Unless a very close binary neutron star merger takes\nplace, these effects are unlikely to be measurable with current GW detectors.\nHowever, with proposed next-generation detectors such as Cosmic Explorer or\nEinstein Telescope, the effects can be measured for events at distances of up\nto ~80-200 Mpc, if the cold EoS is sufficiently well constrained.",
+                "author": [
+                    {
+                        "name": "Carolyn A. Raithel"
+                    },
+                    {
+                        "name": "Vasileios Paschalidis"
+                    }
+                ],
+                "arxiv:comment": {
+                    "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+                    "#text": "Updated references"
+                },
+                "link": [
+                    {
+                        "@href": "http://arxiv.org/abs/2312.14046v2",
+                        "@rel": "alternate",
+                        "@type": "text/html"
+                    },
+                    {
+                        "@title": "pdf",
+                        "@href": "http://arxiv.org/pdf/2312.14046v2",
+                        "@rel": "related",
+                        "@type": "application/pdf"
+                    }
+                ],
+                "arxiv:primary_category": {
+                    "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+                    "@term": "astro-ph.HE",
+                    "@scheme": "http://arxiv.org/schemas/atom"
+                },
+                "category": [
+                    {
+                        "@term": "astro-ph.HE",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    },
+                    {
+                        "@term": "gr-qc",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    }
+                ]
+            },
+            {
+                "id": "http://arxiv.org/abs/2312.14917v1",
+                "updated": "2023-12-22T18:51:29Z",
+                "published": "2023-12-22T18:51:29Z",
+                "title": "Virialized Profiles and Oscillations of Self-interacting Fuzzy Dark\n  Matter Solitons",
+                "summary": "We investigate the effect of self-interactions on the shape and oscillations\nof the solitonic core profile of condensed fuzzy dark matter systems without\nthe backdrop of a halo, revealing universal features in terms of an\nappropriately scaled interaction strength characterizing the crossover between\nthe weakly- and strongly-interacting regimes. Our semi-analytical results are\nfurther confirmed by spherically symmetric simulations of the\nGross-Pitaevskii-Poisson equations. Inverting our obtained relations, we\nhighlight a degeneracy that could significantly affect constraints on the boson\nmass in the presence of repulsive boson self-interactions and propose the\nsimultaneous extraction of static and dynamical solitonic features as a way to\nuniquely constrain both the boson mass and self-interactions.",
+                "author": [
+                    {
+                        "name": "Milos Indjin"
+                    },
+                    {
+                        "name": "I-Kang Liu"
+                    },
+                    {
+                        "name": "Nick P. Proukakis"
+                    },
+                    {
+                        "name": "Gerasimos Rigopoulos"
+                    }
+                ],
+                "link": [
+                    {
+                        "@href": "http://arxiv.org/abs/2312.14917v1",
+                        "@rel": "alternate",
+                        "@type": "text/html"
+                    },
+                    {
+                        "@title": "pdf",
+                        "@href": "http://arxiv.org/pdf/2312.14917v1",
+                        "@rel": "related",
+                        "@type": "application/pdf"
+                    }
+                ],
+                "arxiv:primary_category": {
+                    "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+                    "@term": "astro-ph.CO",
+                    "@scheme": "http://arxiv.org/schemas/atom"
+                },
+                "category": {
+                    "@term": "astro-ph.CO",
+                    "@scheme": "http://arxiv.org/schemas/atom"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "id": "http://arxiv.org/abs/2312.14046v2",
+    "updated": "2023-12-22T18:57:11Z",
+    "published": "2023-12-21T17:13:48Z",
+    "title": "Detectability of Finite-Temperature Effects From Neutron Star Mergers\n  with Next-Generation Gravitational Wave Detectors",
+    "summary": "Observations of the high-frequency gravitational waves (GWs) emitted by the\nhot and massive remnant of a binary neutron star merger will provide new probes\nof the dense-matter equation of state (EoS). We show that current uncertainties\nin the thermal physics can cause the emergent GW spectum to differ by a degree\ncomparable to changing the cold EoS by $\\pm\\sim120$ m in the characteristic\nradius of a neutron star. Unless a very close binary neutron star merger takes\nplace, these effects are unlikely to be measurable with current GW detectors.\nHowever, with proposed next-generation detectors such as Cosmic Explorer or\nEinstein Telescope, the effects can be measured for events at distances of up\nto ~80-200 Mpc, if the cold EoS is sufficiently well constrained.",
+    "author": [
+        {
+            "name": "Carolyn A. Raithel"
+        },
+        {
+            "name": "Vasileios Paschalidis"
+        }
+    ],
+    "arxiv:comment": {
+        "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+        "#text": "Updated references"
+    },
+    "link": [
+        {
+            "@href": "http://arxiv.org/abs/2312.14046v2",
+            "@rel": "alternate",
+            "@type": "text/html"
+        },
+        {
+            "@title": "pdf",
+            "@href": "http://arxiv.org/pdf/2312.14046v2",
+            "@rel": "related",
+            "@type": "application/pdf"
+        }
+    ],
+    "arxiv:primary_category": {
+        "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+        "@term": "astro-ph.HE",
+        "@scheme": "http://arxiv.org/schemas/atom"
+    },
+    "category": [
+        {
+            "@term": "astro-ph.HE",
+            "@scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+            "@term": "gr-qc",
+            "@scheme": "http://arxiv.org/schemas/atom"
+        }
+    ]
+}
+
+
+{
+    "@xmlns": "http://www.w3.org/2005/Atom",
+    "link": {
+        "@href": "http://arxiv.org/api/query?search_query%3Dall%3Aastrophysics%26id_list%3D%26start%3D0%26max_results%3D1",
+        "@rel": "self",
+        "@type": "application/atom+xml"
+    },
+    "title": {
+        "@type": "html",
+        "#text": "ArXiv Query: search_query=all:astrophysics&id_list=&start=0&max_results=1"
+    },
+    "id": "http://arxiv.org/api/rCfxZRzoKBHLaEETqzryffpMnQw",
+    "updated": "2023-12-26T00:00:00-05:00",
+    "opensearch:totalResults": {
+        "@xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+        "#text": "340746"
+    },
+    "opensearch:startIndex": {
+        "@xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+        "#text": "0"
+    },
+    "opensearch:itemsPerPage": {
+        "@xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+        "#text": "1"
+    },
+    "entry": {
+        "id": "http://arxiv.org/abs/2312.14046v2",
+        "updated": "2023-12-22T18:57:11Z",
+        "published": "2023-12-21T17:13:48Z",
+        "title": "Detectability of Finite-Temperature Effects From Neutron Star Mergers\n  with Next-Generation Gravitational Wave Detectors",
+        "summary": "Observations of the high-frequency gravitational waves (GWs) emitted by the\nhot and massive remnant of a binary neutron star merger will provide new probes\nof the dense-matter equation of state (EoS). We show that current uncertainties\nin the thermal physics can cause the emergent GW spectum to differ by a degree\ncomparable to changing the cold EoS by $\\pm\\sim120$ m in the characteristic\nradius of a neutron star. Unless a very close binary neutron star merger takes\nplace, these effects are unlikely to be measurable with current GW detectors.\nHowever, with proposed next-generation detectors such as Cosmic Explorer or\nEinstein Telescope, the effects can be measured for events at distances of up\nto ~80-200 Mpc, if the cold EoS is sufficiently well constrained.",
+        "author": [
+            {
+                "name": "Carolyn A. Raithel"
+            },
+            {
+                "name": "Vasileios Paschalidis"
+            }
+        ],
+        "arxiv:comment": {
+            "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+            "#text": "Updated references"
+        },
+        "link": [
+            {
+                "@href": "http://arxiv.org/abs/2312.14046v2",
+                "@rel": "alternate",
+                "@type": "text/html"
+            },
+            {
+                "@title": "pdf",
+                "@href": "http://arxiv.org/pdf/2312.14046v2",
+                "@rel": "related",
+                "@type": "application/pdf"
+            }
+        ],
+        "arxiv:primary_category": {
+            "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+            "@term": "astro-ph.HE",
+            "@scheme": "http://arxiv.org/schemas/atom"
+        },
+        "category": [
+            {
+                "@term": "astro-ph.HE",
+                "@scheme": "http://arxiv.org/schemas/atom"
+            },
+            {
+                "@term": "gr-qc",
+                "@scheme": "http://arxiv.org/schemas/atom"
+            }
+        ]
+    }
+}
