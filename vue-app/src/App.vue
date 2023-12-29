@@ -5,6 +5,7 @@ import FilterBar from './components/FilterBar.vue';
 import { ref } from 'vue';
 import json from "../../tag_map.json"
 import word_map from "../../word_to_tag_map.json"
+import book from "./assets/book.svg"
 
 
 var title = "no title"
@@ -54,7 +55,9 @@ function update(item) {
   <!-- <div class="header">
     <FilterBar/>
   </div> -->
+  <h1>Daskalos Beta</h1>
   <main >
+    <img src = "./assets/book.svg"/>
     <FilterBar @changeCategory="
           (category) => {
             updateCategory(category)
@@ -67,22 +70,63 @@ function update(item) {
             update(item)
           }
         "/>
-    </div>
-    <div class="column">
-      <Summary v-show="loaded" :key="componentKey" :title="title" :author="author" :category="local_category" :summary="summary" :html_link="html_link"/>
-    </div>
+      </div>
+      <div class="column">
+        <Summary v-show="loaded" :key="componentKey" :title="title" :author="author" :category="local_category" :summary="summary" :html_link="html_link"/>
+        <h2 v-show="!loaded">Select an article to read the summary!</h2>
+      </div>
     </div>
   </main>
 </template>
 
 <style scoped>
+
+* {
+  border-radius: 8px;
+}
+
+h2 {
+  padding-top: 20%;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+h1 {
+  margin: 0%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #f29d16;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  height: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 main {
   line-height: 1.5;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 4%;
   height: 100%;
   background-color: rgb(195, 195, 195);
+  border: 2px solid #f29d16;
+}
+
+.row {
+  box-sizing: border-box;
+  display: table;
+  clear: both;
+  height: 100vh;
+  width: 100%;
+  border-radius: 6px;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -94,14 +138,8 @@ main {
   box-sizing: border-box;
   background-color: rgb(220, 220, 220);
   height: 100vh;
-  overflow-y:auto;
-}
-
-.row {
-  box-sizing: border-box;
-  display: table;
-  clear: both;
-  height: 100vh;
-  width: 100%;
+  overflow:auto;
+  border: 2px solid #f29d16;
+  border-radius: 6px;
 }
 </style>
