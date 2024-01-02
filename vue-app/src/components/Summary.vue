@@ -32,7 +32,6 @@ defineProps({
     <h4>{{ category }}</h4>
     <Button text="Read Now" :link_to_open="html_link"/>
 
-
     <h2>Summary</h2>
     <p>{{ summary }}</p>
   </div>

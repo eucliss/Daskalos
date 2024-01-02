@@ -6,6 +6,7 @@ import { ref } from 'vue';
 import json from "../../tag_map.json"
 import word_map from "../../word_to_tag_map.json"
 import book from "./assets/book.svg"
+import HeaderBar from './components/HeaderBar.vue'
 
 
 var title = "no title"
@@ -52,31 +53,28 @@ function update(item) {
 </script>
 
 <template>
-  <!-- <div class="header">
-    <FilterBar/>
-  </div> -->
-  <h1>Daskalos Beta</h1>
-  <main >
-    <img src = "./assets/book.svg"/>
-    <FilterBar @changeCategory="
-          (category) => {
-            updateCategory(category)
-          }"
-        />
-    <div class="row">
-      <div class="column">
-      <ArticleFeed :key="componentKey2" :category="category" @changeSummary="
-          (item) => {
-            update(item)
-          }
-        "/>
+  <HeaderBar/>
+    <main >
+      <img src = "./assets/Network.svg"/>
+      <FilterBar @changeCategory="
+            (category) => {
+              updateCategory(category)
+            }"
+          />
+      <div class="row">
+        <div class="column">
+        <ArticleFeed :key="componentKey2" :category="category" @changeSummary="
+            (item) => {
+              update(item)
+            }
+          "/>
+        </div>
+        <div class="column">
+          <Summary v-show="loaded" :key="componentKey" :title="title" :author="author" :category="local_category" :summary="summary" :html_link="html_link"/>
+          <h2 v-show="!loaded">Select an article to read the summary!</h2>
+        </div>
       </div>
-      <div class="column">
-        <Summary v-show="loaded" :key="componentKey" :title="title" :author="author" :category="local_category" :summary="summary" :html_link="html_link"/>
-        <h2 v-show="!loaded">Select an article to read the summary!</h2>
-      </div>
-    </div>
-  </main>
+    </main>
 </template>
 
 <style scoped>
@@ -92,13 +90,13 @@ h2 {
   font-weight: 500;
 }
 
-h1 {
-  margin: 0%;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 500;
-  color: #f29d16;
-  background-color: rgb(255, 255, 255);
+.sidebar {
+  height: 100%;
+  width: 10%;
+  background-color: #8B8885;
+  float: left;
+  width: 10%;
+  height: 100vh;
 }
 
 img {
@@ -112,12 +110,13 @@ img {
 }
 
 main {
+  display: auto;
   line-height: 1.5;
   padding-left: 10%;
   padding-right: 10%;
   height: 100%;
-  background-color: rgb(195, 195, 195);
-  border: 2px solid #f29d16;
+  background-color: #FFF4E2;
+  border: 2px solid #8B8885;
 }
 
 .row {
@@ -136,10 +135,10 @@ main {
   padding: 10px;
   margin: 1%;
   box-sizing: border-box;
-  background-color: rgb(220, 220, 220);
+  background-color: #FFF4E2;
   height: 100vh;
   overflow:auto;
-  border: 2px solid #f29d16;
+  border: 2px solid #8B8885;
   border-radius: 6px;
 }
 </style>

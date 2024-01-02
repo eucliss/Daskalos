@@ -28,7 +28,7 @@ categories = getFirstFiveElements(categories)
 .topnav {
     margin-bottom: 1%;
     overflow: hidden;
-    background-color: #757575;
+    background-color: #202020;
     display: table;
     width: 100%;
     height: 50px;
@@ -43,12 +43,13 @@ categories = getFirstFiveElements(categories)
 }
 
 .topnav span:hover {
-    background-color: #ddd;
+    background-color: #FFF4E2;
+    border: #202020;
     color: black;
 }
 
 .topnav span.active {
-    background-color: #04AA6D;
+    background-color: #FFF4E2;
     color: white;
 }
 
