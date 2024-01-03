@@ -9,6 +9,9 @@ defineProps({
     required: true
   }
 })
+
+// var title = ref(props.title)
+// var date_updated = ref(props.date_updated)
 </script>
 
 <template>
