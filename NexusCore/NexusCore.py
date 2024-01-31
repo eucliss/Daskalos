@@ -6,8 +6,8 @@ class NexusCore:
     def __init__(self, 
                  db_name='nexuscore', 
                  collection_name='test_collection',
-                 tag_map='../tag_map.json',
-                 word_map='../word_to_tag_map.json'):
+                 tag_map='../objects/tag_map.json',
+                 word_map='../objects/word_to_tag_map.json'):
         self.mongodb = MongoDBConnection()
         self.mongodb.connect()
         self.db_name = db_name
@@ -29,8 +29,7 @@ class NexusCore:
         return collection.find().limit(count)
 
     def create_initial_document(self):
-        return
-        with open('../database.json') as f:
+        with open('./database.json') as f:
             data = json.load(f)
         categories = data.keys()
         for category in categories:
