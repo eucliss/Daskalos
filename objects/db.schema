@@ -1,0 +1,27 @@
+[nexus]
+    [cs.AI]
+        url: string url
+        id: string id value from arxiv
+        html_link: string link to html document
+        links: array of link objects
+            @href: string link
+            @rel: string
+            @type: string type of link
+            @title: string title of link
+        categories: array | object 
+            @term: category term (cs.CC)
+            @scheme: string link to category scheme
+        primary_category: object 
+            @xmlns:arxiv: Scheme string link
+            @term: category term (cs.CC)
+            @scheme: Scheme string link
+        title: string title of the article 
+        summary: string summary of the article
+        published: timestamp YYYY:MM:DDTHH:MM:SSZ
+        authors: String comma separated set of authors 
+        authors_object: array | object 
+            name: String name of author
+    [cs.AR]
+    [cs.CC]
+    [cs.CE]
+    [...]

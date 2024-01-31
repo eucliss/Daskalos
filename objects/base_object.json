@@ -1,0 +1,45 @@
+{    
+    "url": "", // URL of arxiv article http://arxiv.org/abs/2312.15163v1
+    "id": "", // ID of arxiv article 2312.15163v1
+    "html_link": "", // HTML link of the article https://browse.arxiv.org/html/2312.15163v1
+    "links": [
+      {
+        "@href": "http://arxiv.org/abs/2312.15163v1",
+        "@rel": "alternate",
+        "@type": "text/html"
+      },
+      {
+        "@title": "pdf",
+        "@href": "http://arxiv.org/pdf/2312.15163v1",
+        "@rel": "related",
+        "@type": "application/pdf"
+      }
+    ], // Optional
+    "categories": [
+        {
+          "@term": "cs.AI",
+          "@scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@term": "cs.IR",
+          "@scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+    "primary_category": {
+      "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+      "@term": "cs.AI",
+      "@scheme": "http://arxiv.org/schemas/atom"
+    },
+    "title": "", // Title of the article
+    "summary": "", // Summary of the article
+    "published": "2023-12-23T04:51:23Z", // Timestamp YYYY-MM-DDTHH:MM:SSZ
+    "authors": "", // Authors plain text
+    "authors_object": [
+      {
+        "name": "Elizabeth Akinyi Ondula"
+      },
+      {
+        "name": "Bhaskar Krishnamachari"
+      }
+    ]
+  }

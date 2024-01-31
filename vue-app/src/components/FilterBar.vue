@@ -1,5 +1,5 @@
 <script setup>
-import json from "../../../tag_map.json"
+import json from "../../../objects/tag_map.json"
 
 const emit = defineEmits(['changeCategory'])
 

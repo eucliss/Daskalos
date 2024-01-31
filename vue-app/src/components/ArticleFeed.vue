@@ -1,6 +1,6 @@
 <script setup>
 import Article from './Article.vue'
-import json from "../../../database.json"
+import json from "../../../objects/database.json"
 import update from "../App.vue"
 import { ref, onMounted } from 'vue'
 import axios from 'axios'

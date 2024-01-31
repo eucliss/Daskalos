@@ -3,8 +3,8 @@ import Summary from './components/Summary.vue'
 import ArticleFeed from './components/ArticleFeed.vue'
 import FilterBar from './components/FilterBar.vue';
 import { ref } from 'vue';
-import json from "../../tag_map.json"
-import word_map from "../../word_to_tag_map.json"
+import json from "../../objects/tag_map.json"
+import word_map from "../../objects/word_to_tag_map.json"
 import book from "./assets/book.svg"
 import HeaderBar from './components/HeaderBar.vue'
 
